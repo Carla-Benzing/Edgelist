@@ -1,0 +1,33 @@
+from,to,weight
+HP,RW,3
+RW,HP,3
+HP,HG,3
+HG,HP,3
+HP,Hagrid,3
+Hagrid,HP,3
+HP,Dum,2
+Dum,HP,2
+HP,McG,1
+McG,HP,1
+HP,Snape,2
+Snape ,HP,2
+HG,RW,3
+RW,HG,3
+HG,Hagrid,2
+Hagrid,HG,2
+HG,McG,1
+McG,HG,1
+RW,Hagrid,2
+Hagrid,RW,2
+RW,McG,1
+McG,RW,1
+Dum,Hagrid,2
+Hagrid,Dum,2
+Dum,McG,2
+McG,Dum,2
+Dum,Snape,2
+Snape ,Dum,2
+McG,Snape,1
+Snape ,McG,1
+McG,Hagrid,1
+Hagrid,McG,1
