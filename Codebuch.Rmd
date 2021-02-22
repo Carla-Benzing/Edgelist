@@ -1,0 +1,57 @@
+---
+title: "Codebuch"
+author: "Carla Benzing"
+date: "21 2 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Codebuch
+## Ursprung und Datenerhebung
+Ich habe die Daten auf der vorgegebenen Website des VfB Stuttgarts, sowie im Munzinger Arhiv erhoben.
+Anhand dieser Daten soll ein Netwerk der Mitglieder des Aufsichtsrat und des Vorstands erstellt werden. 
+Das Netzwerk ist ein ungerichtetes Two-Mode Netzwerk.
+
+## nodelist
+
+id:
+erster Buchstabe von Vor- und Nachname
+bei Organisationen die Anfangsbuchstaben der Wörter
+
+type: 
+0=person
+1=Organisation
+
+age: 
+Alter in Jahren
+
+fuction: 
+V=Vorstand
+AR=Aufsichtsrat
+
+representation:
+K=Kommunikation
+S=Sport
+F=Finanzen
+ST=Strategie
+V=Verwaltung 
+
+position:
+M=Mitglied
+Vor=Vorsitzender
+StVor=Stellvertretender Vorsitzender
+IVor=Interimsvorstand
+
+## edgelist
+to 
+
+from 
+
+## Datenquellen: 
+- VfB Stuttgart:  https://www.vfb.de/de/1893/club/vfb-ag/organe-der-vfb-ag/
+- Munzinger Archiv:  https://www.munzinger.de/search/start.jsp
+- Sonstige Recherche
